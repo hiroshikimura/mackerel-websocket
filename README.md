@@ -8,6 +8,13 @@
 3. configure environment values.
   - export PATH=$PATH:/usr/local/go/bin (ex: bash)
   - export GOPATH=hogefuga (your settings)
+  - for examples...
+  ```
+  cat /etc/profile.d/golang.sh
+  export GOROOT=/usr/local/go
+  export PATH=$PATH:/usr/local/go/bin
+  export GOPATH=${HOME}/gowork
+  ```
 4. import a libraries
   - run this cmd:
   ```
