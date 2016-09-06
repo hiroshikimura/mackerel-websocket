@@ -7,7 +7,15 @@
   - tar -C /usr/local -xzf goHOGEHOGE.tgz
 3. configure environment values.
   - export PATH=$PATH:/usr/local/go/bin (ex: bash)
-4. enjoy!
+  - export GOPATH=hogefuga (your settings)
+4. import a libraries
+  - run this cmd:
+  ```
+  > go get github.com/jessevdk/go-flags
+  > go get github.com/mackerelio/checkers
+  > go get golang.org/x/net/websocket
+  ```
+6. enjoy!
 
 references:<br/>
 https://golang.org/doc/install
