@@ -24,5 +24,9 @@
   ```
 6. enjoy!
 
+## how to build
+
+go build [source file name]
+
 references:<br/>
 https://golang.org/doc/install
